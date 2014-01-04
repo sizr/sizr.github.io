@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://sizr.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: SIZE IT UP
+subtitle: Where code and design collide.
+author: Kartik Luke Singh
 simple_search: http://google.com/search
-description:
+description: A blog for the minds churning at SIZR
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in

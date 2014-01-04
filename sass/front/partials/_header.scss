@@ -1,13 +1,13 @@
 .header {
 	&.homepage {
-		background-image: url('../img/title.jpg');
+		background-image: url('../images/title.jpg');
 	}
 	&.contact {
 		padding-top: 4.15em;
 	}
 	&.project {
 		padding-top: 0;
-		background-image: url('../img/title.jpg');
+		background-image: url('../images/title.jpg');
 		min-height: 33%;
 	}
 	@media only screen and (min-width:1400px) {

@@ -1,0 +1,14 @@
+aside#logo {
+  background-color: transparent;
+}
+
+aside#logo div {
+  background-color: white;
+}
+
+aside#logo div a {
+  width: 140px;
+  height: 140px;
+  background: red url(/images/sizrlogo.png) center center no-repeat!important;
+  background-size: 100% 100%!important;
+}
