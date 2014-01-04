@@ -1,0 +1,17 @@
+$red: #ad141e;
+
+.contact {
+	.project, .sizr-info {
+		padding: 3em 2em;
+	}
+	.project {
+		border-left: 1px solid white;
+	}
+	a {
+		color: $red;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	background-image: url('../img/footer.png');
+	background-size: cover;
+}

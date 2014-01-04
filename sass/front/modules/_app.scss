@@ -1,0 +1,129 @@
+
+
+.header, .company, .ours, .theirs, .contact {
+	min-height: 100%;
+}
+.header, .theirs, .ours, .contact {
+	padding-top: 8.34em;
+}
+.company {
+	padding-top: 16%;
+	position: relative;
+	color: #fff;
+}
+.contact {
+	color: #fff!important;
+}
+p {
+	font-family: 'Arvo';
+}
+h2, h1 {
+	font-size: 2.25em;
+	font-family: 'Mohave';
+	font-weight: bold;
+	&.title {
+		color: #fff;
+	}
+}
+h3 {
+	font-size: 2.25em;
+	font-family: 'Mohave';
+	font-style: italic;
+}
+p {
+	font-size: 1.125em;
+	line-height: 1.875em;
+}
+
+.overlay {
+	background: rgba(173,20,30,0.75);
+	bottom: 0;
+	content: " ";
+	display: block;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
+
+.grid {
+	padding: 3px;
+	&> div {
+		padding: 3px;
+	}
+	&> div > div {
+		
+	}
+	.overlay {
+		&.extras {
+			background-color: #333;
+			opacity: 1.0!important;
+		}
+		text-decoration: none;
+		background: #3C698E;
+		background: rgba(56, 104, 143, 0.95);
+		bottom: 3px;
+		left: 3px;
+		opacity: 0.0;
+		right: 3px;
+		top: 3px;
+		z-index: 3;
+		&:hover {
+			opacity: 1.0
+		}
+	}
+}
+.space-out {
+	padding-top: 6.5em;
+	padding-bottom: 6.5em;
+}
+
+.info {
+	z-index: 5;
+	color: white
+}
+
+.tagline {
+	font-size: 3.4em;
+	line-height: 1.2;
+	font-family: 'Mohave';
+	font-weight: 500;
+	text-shadow: -1px 1px #333;
+	text-shadow: -2px 2px #222;
+	text-shadow: -3px 3px #111;
+}
+
+.logo {
+	text-align: center;
+	padding: 35px 8% 0;
+}
+
+.bridge {
+	background-color: #333;
+	color: #fff;
+	padding: 75px;
+	font-size: 2em;
+	font-family: 'Mohave'
+}
+
+footer {
+	padding: 20px 0;
+}
+
+.form-group {
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+.form-control {
+	padding-top:.5em;
+	padding-bottom:.5em; 
+	height: 50px;
+}
+
+.project-image {
+	.hero {
+		padding: 8.4em 2em;
+	}
+}

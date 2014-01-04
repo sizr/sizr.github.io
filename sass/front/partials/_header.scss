@@ -1,0 +1,25 @@
+.header {
+	&.homepage {
+		background-image: url('../img/title.jpg');
+	}
+	&.contact {
+		padding-top: 4.15em;
+	}
+	&.project {
+		padding-top: 0;
+		background-image: url('../img/title.jpg');
+		min-height: 33%;
+	}
+	@media only screen and (min-width:1400px) {
+		background-size: contain;
+	}
+}
+
+.hero {
+	color: white;
+	font-style: italic;
+}
+
+.logo {
+  
+}
