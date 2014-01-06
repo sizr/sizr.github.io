@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: uptime | SIZE IT UP]]></title>
-  <link href="http://sizr.github.io/blog/categories/uptime/atom.xml" rel="self"/>
+  <title><![CDATA[Category: app | SIZE IT UP]]></title>
+  <link href="http://sizr.github.io/blog/categories/app/atom.xml" rel="self"/>
   <link href="http://sizr.github.io/"/>
-  <updated>2014-01-06T23:33:19+05:30</updated>
+  <updated>2014-01-06T23:51:43+05:30</updated>
   <id>http://sizr.github.io/</id>
   <author>
     <name><![CDATA[Kartik Luke Singh]]></name>
@@ -22,7 +22,7 @@
 
 <p>Each of the created keys takes you to one instance of the file and you can pass these along to whomsoever you would like to send the file too. You also get a key that will help you track the keys you gave out and whether they have expired or not.</p>
 
-<h1>Expiry</h1>
+<h3>Expiry</h3>
 
 <p>Keys expire thirty seconds after being opened in the case of an image or after a downloaded is completed.</p>
 
