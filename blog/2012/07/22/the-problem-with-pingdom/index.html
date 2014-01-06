@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>The problem with Pingdom - SIZE IT UP</title>
+  <title>Limt :: Snapchat meets Dropbox - SIZE IT UP</title>
   <meta name="author" content="Kartik Luke Singh">
 
   
-  <meta name="description" content="Tweet The Problem With Pingdom Jul 22nd, 2012 Time to be Awesome - awesome.rb 1
-puts &quot;Awesome!&quot; unless lame The problem with pingdom. My &hellip;">
+  <meta name="description" content="Tweet Limt :: Snapchat Meets Dropbox Jul 22nd, 2012 We recently built an app to that allows you to share files with your friends securely. Just &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -99,7 +98,7 @@ puts &quot;Awesome!&quot; unless lame The problem with pingdom. My &hellip;">
   
   <header>
     
-      <h2 class="entry-title">The Problem With Pingdom</h2>
+      <h2 class="entry-title">Limt :: Snapchat Meets Dropbox</h2>
     
     
       <p class="meta">
@@ -122,30 +121,15 @@ puts &quot;Awesome!&quot; unless lame The problem with pingdom. My &hellip;">
   </header>
 
 
+<p>We recently built an app to that allows you to share files with your friends securely. Just upload a file to our server and select the number of keys you want to create and click GO!.</p>
 
+<p>Each of the created keys takes you to one instance of the file and you can pass these along to whomsoever you would like to send the file too. You also get a key that will help you track the keys you gave out and whether they have expired or not.</p>
 
-<figure class='code'><figcaption><span>Time to be Awesome - awesome.rb </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">puts</span> <span class="s2">&quot;Awesome!&quot;</span> <span class="k">unless</span> <span class="n">lame</span>
-</span></code></pre></td></tr></table></div></figure>
+<h1>Expiry</h1>
 
+<p>Keys expire thirty seconds after being opened in the case of an image or after a downloaded is completed.</p>
 
-<p><a href="http://www.pingdom.com%20Pingdom">The problem with pingdom.</a></p>
-
-<p>My money&rsquo;s in that office, right? If she start giving me some bullshit about it ain&rsquo;t there, and we got to go someplace else and get it, I&rsquo;m gonna shoot you in the head then and there. Then I&rsquo;m gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I&rsquo;m talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?</p>
-
-<blockquote><p>Blockquote is what goes
-inside this block here
-would you believe that
-bullshit?</p></blockquote>
-
-<p>Well, the way they make shows is, they make one show. That show&rsquo;s called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they&rsquo;re going to make more shows. Some pilots get picked and become television programs. Some don&rsquo;t, become nothing. She starred in one of the ones that became nothing.</p>
-
-<p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother&rsquo;s keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
-
-<p>Your bones don&rsquo;t break, mine do. That&rsquo;s clear. Your cells react to bacteria and viruses differently than mine. You don&rsquo;t get sick, I do. That&rsquo;s also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We&rsquo;re on the same curve, just on opposite ends.</p>
-
-<p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that&rsquo;s what you see at a toy store. And you must think you&rsquo;re in a toy store, because you&rsquo;re here shopping for an infant named Jeb.</p>
+<p>This app was built on the Ruby on Rails platform. One of the biggest problems we faced back at SizrDev was handling large uploads (>100MB) without tying up our own servers or timing out Heroku(which sets itself a 30 second timeout). While going through the options we had in front of us, the team decided to run with a nifty little gem which leverages AWS S3′s new CORS feature in turn allowing us to bypass our server completely and dump files straight to S3. For a deeper look into this look into an article by one of our devs <a href="http://www.blitztheory.com/direct-upload-with-s3_direct_upload/" title="Direct Upload Tutorial by Varun Mayya">here</a>.</p>
 
 
 
