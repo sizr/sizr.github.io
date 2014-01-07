@@ -4,7 +4,7 @@
   <title><![CDATA[SIZE IT UP]]></title>
   <link href="http://sizr.github.io/atom.xml" rel="self"/>
   <link href="http://sizr.github.io/"/>
-  <updated>2014-01-07T18:52:56+05:30</updated>
+  <updated>2014-01-07T18:56:00+05:30</updated>
   <id>http://sizr.github.io/</id>
   <author>
     <name><![CDATA[Kartik Luke Singh]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Limt :: Snapchat meets Dropbox]]></title>
-    <link href="http://sizr.github.io/blog/2012/07/22/the-problem-with-pingdom/"/>
+    <link href="http://sizr.github.io/blog/2012/07/22/limt-snapchat-meets-dropbox/"/>
     <updated>2012-07-22T19:13:00+05:30</updated>
-    <id>http://sizr.github.io/blog/2012/07/22/the-problem-with-pingdom</id>
+    <id>http://sizr.github.io/blog/2012/07/22/limt-snapchat-meets-dropbox</id>
     <content type="html"><![CDATA[<p>We recently built an app to that allows you to share files with your friends securely. Just upload a file to our server and select the number of keys you want to create and click GO!.</p>
 
 <p>Each of the created keys takes you to one instance of the file and you can pass these along to whomsoever you would like to send the file too. You also get a key that will help you track the keys you gave out and whether they have expired or not.</p>
