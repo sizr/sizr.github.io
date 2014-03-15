@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: app | SIZE IT UP]]></title>
-  <link href="http://sizr.github.io/blog/categories/app/atom.xml" rel="self"/>
-  <link href="http://sizr.github.io/"/>
-  <updated>2014-03-15T19:52:20+05:30</updated>
-  <id>http://sizr.github.io/</id>
+  <link href="http://sizr.net/blog/categories/app/atom.xml" rel="self"/>
+  <link href="http://sizr.net/"/>
+  <updated>2014-03-15T20:02:09+05:30</updated>
+  <id>http://sizr.net/</id>
   <author>
     <name><![CDATA[Kartik Luke Singh]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Limt :: Snapchat meets Dropbox]]></title>
-    <link href="http://sizr.github.io/blog/2012/07/22/limt-snapchat-meets-dropbox/"/>
+    <link href="http://sizr.net/blog/2012/07/22/limt-snapchat-meets-dropbox/"/>
     <updated>2012-07-22T19:13:00+05:30</updated>
-    <id>http://sizr.github.io/blog/2012/07/22/limt-snapchat-meets-dropbox</id>
+    <id>http://sizr.net/blog/2012/07/22/limt-snapchat-meets-dropbox</id>
     <content type="html"><![CDATA[<p>We recently built an app to that allows you to share files with your friends securely. Just upload a file to our server and select the number of keys you want to create and click GO!.</p>
 
 <p>Each of the created keys takes you to one instance of the file and you can pass these along to whomsoever you would like to send the file too. You also get a key that will help you track the keys you gave out and whether they have expired or not.</p>
