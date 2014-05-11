@@ -4,7 +4,7 @@
   <title><![CDATA[Category: app | SIZE IT UP]]></title>
   <link href="http://sizr.net/blog/categories/app/atom.xml" rel="self"/>
   <link href="http://sizr.net/"/>
-  <updated>2014-03-15T21:29:55+05:30</updated>
+  <updated>2014-05-11T14:49:00+05:30</updated>
   <id>http://sizr.net/</id>
   <author>
     <name><![CDATA[Kartik Luke Singh]]></name>
@@ -27,6 +27,8 @@
 <p>Keys expire thirty seconds after being opened in the case of an image or after a downloaded is completed.</p>
 
 <p>This app was built on the Ruby on Rails platform. One of the biggest problems we faced back at SizrDev was handling large uploads (>100MB) without tying up our own servers or timing out Heroku(which sets itself a 30 second timeout). While going through the options we had in front of us, the team decided to run with a nifty little gem which leverages AWS S3′s new CORS feature in turn allowing us to bypass our server completely and dump files straight to S3. For a deeper look into this look into an article by one of our devs <a href="http://www.blitztheory.com/direct-upload-with-s3_direct_upload/" title="Direct Upload Tutorial by Varun Mayya">here</a>.</p>
+
+<p><strong>Note: Limt is still in development. We&rsquo;re shifting focus to <a href="http://jobspire.net">Jobspire</a> but we plan to finish Limt up soon.</strong></p>
 ]]></content>
   </entry>
   

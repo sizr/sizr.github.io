@@ -16,6 +16,11 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="The SIZR Blog / Where code and design collide." />
+  <meta property="og:description" content="The people at SIZR talk about code, design and their latest developments." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://sizr.net/blog" />
+  <meta property="og:image" content="http://i.imgur.com/YYLWKOr.png" />
 
   
   <link rel="canonical" href="http://sizr.net/blog/2012/07/22/limt-snapchat-meets-dropbox/">
@@ -125,6 +130,8 @@
 <p>Keys expire thirty seconds after being opened in the case of an image or after a downloaded is completed.</p>
 
 <p>This app was built on the Ruby on Rails platform. One of the biggest problems we faced back at SizrDev was handling large uploads (>100MB) without tying up our own servers or timing out Heroku(which sets itself a 30 second timeout). While going through the options we had in front of us, the team decided to run with a nifty little gem which leverages AWS S3′s new CORS feature in turn allowing us to bypass our server completely and dump files straight to S3. For a deeper look into this look into an article by one of our devs <a href="http://www.blitztheory.com/direct-upload-with-s3_direct_upload/" title="Direct Upload Tutorial by Varun Mayya">here</a>.</p>
+
+<p><strong>Note: Limt is still in development. We&rsquo;re shifting focus to <a href="http://jobspire.net">Jobspire</a> but we plan to finish Limt up soon.</strong></p>
 
 
 

@@ -2,7 +2,11 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://sizr.net/blog/2012/07/22/limt-snapchat-meets-dropbox/</loc>
-        <lastmod>2014-01-07T19:22:13+05:30</lastmod>
+        <lastmod>2014-03-16T14:46:28+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://sizr.net/blog/2014/03/16/jobspire-aspire-to-find-a-job-you-love/</loc>
+        <lastmod>2014-03-16T14:50:51+05:30</lastmod>
     </url>
     <url>
         <loc>http://sizr.net/robots.txt</loc>
@@ -14,14 +18,14 @@
     </url>
     <url>
         <loc>http://sizr.net/</loc>
-        <lastmod>2014-03-15T21:07:03+05:30</lastmod>
+        <lastmod>2014-05-11T14:48:32+05:30</lastmod>
     </url>
     <url>
         <loc>http://sizr.net/blog/archives/</loc>
-        <lastmod>2014-01-07T19:22:13+05:30</lastmod>
+        <lastmod>2014-03-16T14:50:51+05:30</lastmod>
     </url>
     <url>
         <loc>http://sizr.net/blog/</loc>
-        <lastmod>2014-01-07T19:22:13+05:30</lastmod>
+        <lastmod>2014-03-16T14:50:51+05:30</lastmod>
     </url>
 </urlset>
